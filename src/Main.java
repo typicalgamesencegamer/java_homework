@@ -1,4 +1,5 @@
-import homework_1.*;
+import ru.aston.hometask_1.ImmutableClass;
+import ru.aston.hometask_1.SomeClass;
 
 public class Main {
     static void main(String[] args) {
@@ -33,6 +34,5 @@ public class Main {
         System.out.println(newClass.getNumber());
         System.out.println("получение number из immutable класса");
         System.out.println(iClass.getSClass().getNumber());
-
     }
 }
