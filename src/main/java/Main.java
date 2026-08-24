@@ -13,7 +13,8 @@ public class Main {
     public static void main(String[] args) {
         ObjectMapper mapper = new ObjectMapper();
         List<Student> students = null;
-        try (FileInputStream fis = new FileInputStream(new File("src/main/resources/students.json"))) {
+        final String path = "src/main/resources/students.json";
+        try (FileInputStream fis = new FileInputStream(new File(path))) {
             students = mapper.readValue(fis, new TypeReference<List<Student>>() {});
         } catch (IOException e) {
             System.out.println("Exception caught: " + e.getMessage());
