@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Саша",
+    "age": 19,
+    "books": [
+      {
+        "title": "Мастер и Маргарита",
+        "author": "Михаил Булгаков",
+        "page_count": 480,
+        "year_of_pub": 1967
+      },
+      {
+        "title": "Преступление и наказание",
+        "author": "Фёдор Достоевский",
+        "page_count": 672,
+        "year_of_pub": 1866
+      },
+      {
+        "title": "Маленький принц",
+        "author": "Антуан де Сент-Экзюпери",
+        "page_count": 96,
+        "year_of_pub": 1943
+      },
+      {
+        "title": "Война и мир",
+        "author": "Лев Толстой",
+        "page_count": 1225,
+        "year_of_pub": 1869
+      },
+      {
+        "title": "Анна Каренина",
+        "author": "Лев Толстой",
+        "page_count": 864,
+        "year_of_pub": 1877
+      },
+      {
+        "title": "Гарри Поттер и Кубок огня",
+        "author": "Джоан Роулинг",
+        "page_count": 734,
+        "year_of_pub": 2000
+      },
+      {
+        "title": "Голодные игры",
+        "author": "Сьюзен Коллинз",
+        "page_count": 384,
+        "year_of_pub": 2008
+      },
+      {
+        "title": "Эрагон",
+        "author": "Кристофер Паолини",
+        "page_count": 509,
+        "year_of_pub": 2002
+      }
+    ]
+  },
+  {
+    "name": "Женя",
+    "age": 14,
+    "books": [
+      {
+        "title": "Мастер и Маргарита",
+        "author": "Михаил Булгаков",
+        "page_count": 480,
+        "year_of_pub": 1967
+      },
+      {
+        "title": "Собачье сердце",
+        "author": "Михаил Булгаков",
+        "page_count": 320,
+        "year_of_pub": 1925
+      },
+      {
+        "title": "Маленький принц",
+        "author": "Антуан де Сент-Экзюпери",
+        "page_count": 96,
+        "year_of_pub": 1943
+      },
+      {
+        "title": "Война и мир",
+        "author": "Лев Толстой",
+        "page_count": 1225,
+        "year_of_pub": 1869
+      },
+      {
+        "title": "Евгений Онегин",
+        "author": "Александр Пушкин",
+        "page_count": 368,
+        "year_of_pub": 1833
+      },
+      {
+        "title": "Гарри Поттер и Кубок огня",
+        "author": "Джоан Роулинг",
+        "page_count": 734,
+        "year_of_pub": 2000
+      },
+      {
+        "title": "Сумерки",
+        "author": "Стефани Майер",
+        "page_count": 544,
+        "year_of_pub": 2005
+      },
+      {
+        "title": "Гарри Поттер и Принц-полукровка",
+        "author": "Джоан Роулинг",
+        "page_count": 672,
+        "year_of_pub": 2005
+      },
+      {
+        "title": "123",
+        "author": "123123344 Майер",
+        "page_count": 3231,
+        "year_of_pub": 2007
+      }
+    ]
+  },
+  {
+    "name": "Петя",
+    "age": 27,
+    "books": [
+      {
+        "title": "Анна Каренина",
+        "author": "Лев Толстой",
+        "page_count": 864,
+        "year_of_pub": 1877
+      },
+      {
+        "title": "Собачье сердце",
+        "author": "Михаил Булгаков",
+        "page_count": 320,
+        "year_of_pub": 1925
+      },
+      {
+        "title": "Преступление и наказание",
+        "author": "Фёдор Достоевский",
+        "page_count": 672,
+        "year_of_pub": 1866
+      },
+      {
+        "title": "Идиот",
+        "author": "Фёдор Достоевский",
+        "page_count": 656,
+        "year_of_pub": 1869
+      },
+      {
+        "title": "Евгений Онегин",
+        "author": "Александр Пушкин",
+        "page_count": 368,
+        "year_of_pub": 1833
+      },
+      {
+        "title": "Голодные игры",
+        "author": "Сьюзен Коллинз",
+        "page_count": 384,
+        "year_of_pub": 2008
+      },
+      {
+        "title": "Эрагон",
+        "author": "Кристофер Паолини",
+        "page_count": 509,
+        "year_of_pub": 2002
+      },
+      {
+        "title": "Мальчик в полосатой пижаме",
+        "author": "Джон Бойн",
+        "page_count": 224,
+        "year_of_pub": 2006
+      }
+    ]
+  },
+  {
+    "name": "Гриша",
+    "age": 45,
+    "books": [
+      {
+        "title": "Война и мир",
+        "author": "Лев Толстой",
+        "page_count": 1225,
+        "year_of_pub": 1869
+      },
+      {
+        "title": "Анна Каренина",
+        "author": "Лев Толстой",
+        "page_count": 864,
+        "year_of_pub": 1877
+      },
+      {
+        "title": "Идиот",
+        "author": "Фёдор Достоевский",
+        "page_count": 656,
+        "year_of_pub": 1869
+      },
+      {
+        "title": "Маленький принц",
+        "author": "Антуан де Сент-Экзюпери",
+        "page_count": 96,
+        "year_of_pub": 1943
+      },
+      {
+        "title": "Евгений Онегин",
+        "author": "Александр Пушкин",
+        "page_count": 368,
+        "year_of_pub": 1833
+      },
+      {
+        "title": "Гарри Поттер и Кубок огня",
+        "author": "Джоан Роулинг",
+        "page_count": 734,
+        "year_of_pub": 2000
+      },
+      {
+        "title": "Сумерки",
+        "author": "Стефани Майер",
+        "page_count": 544,
+        "year_of_pub": 2005
+      },
+      {
+        "title": "Гарри Поттер и Принц-полукровка",
+        "author": "Джоан Роулинг",
+        "page_count": 672,
+        "year_of_pub": 2005
+      }
+    ]
+  },
+  {
+    "name": "Максим",
+    "age": 69,
+    "books": [
+      {
+        "title": "Преступление и наказание",
+        "author": "Фёдор Достоевский",
+        "page_count": 672,
+        "year_of_pub": 1866
+      },
+      {
+        "title": "Евгений Онегин",
+        "author": "Александр Пушкин",
+        "page_count": 368,
+        "year_of_pub": 1833
+      },
+      {
+        "title": "Мастер и Маргарита",
+        "author": "Михаил Булгаков",
+        "page_count": 480,
+        "year_of_pub": 1967
+      },
+      {
+        "title": "Идиот",
+        "author": "Фёдор Достоевский",
+        "page_count": 656,
+        "year_of_pub": 1869
+      },
+      {
+        "title": "Собачье сердце",
+        "author": "Михаил Булгаков",
+        "page_count": 320,
+        "year_of_pub": 1925
+      },
+      {
+        "title": "Голодные игры",
+        "author": "Сьюзен Коллинз",
+        "page_count": 384,
+        "year_of_pub": 2008
+      },
+      {
+        "title": "Мальчик в полосатой пижаме",
+        "author": "Джон Бойн",
+        "page_count": 224,
+        "year_of_pub": 2006
+      },
+      {
+        "title": "Эрагон",
+        "author": "Кристофер Паолини",
+        "page_count": 509,
+        "year_of_pub": 2002
+      }
+    ]
+  }
+]
