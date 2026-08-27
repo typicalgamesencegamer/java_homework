@@ -1,4 +1,4 @@
-package ru.aston.hometask_3.strategy;
+package ru.aston.hometask_3.strategy.api;
 
 
 public interface Operation {

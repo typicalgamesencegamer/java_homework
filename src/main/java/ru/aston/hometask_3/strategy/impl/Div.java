@@ -1,6 +1,6 @@
-package ru.aston.hometask_3.strategy.operations;
+package ru.aston.hometask_3.strategy.impl;
 
-import ru.aston.hometask_3.strategy.Operation;
+import ru.aston.hometask_3.strategy.api.Operation;
 
 public class Div implements Operation {
     @Override

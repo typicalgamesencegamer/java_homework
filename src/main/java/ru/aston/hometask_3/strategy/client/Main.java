@@ -1,7 +1,8 @@
-package ru.aston.hometask_3.strategy;
+package ru.aston.hometask_3.strategy.client;
 
-import ru.aston.hometask_3.strategy.operations.Div;
-import ru.aston.hometask_3.strategy.operations.Sub;
+import ru.aston.hometask_3.strategy.impl.Div;
+import ru.aston.hometask_3.strategy.impl.Sub;
+import ru.aston.hometask_3.strategy.model.Calculator;
 
 public class Main {
     public static void main(String[] args) {

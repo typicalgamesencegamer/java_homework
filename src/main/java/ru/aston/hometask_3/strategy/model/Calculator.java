@@ -1,4 +1,6 @@
-package ru.aston.hometask_3.strategy;
+package ru.aston.hometask_3.strategy.model;
+
+import ru.aston.hometask_3.strategy.api.Operation;
 
 public class Calculator {
     private Operation operation;
