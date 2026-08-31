@@ -1,17 +1,15 @@
 package ru.aston.hometask_3.builder.client;
 
-import ru.aston.hometask_3.builder.director.Director;
-import ru.aston.hometask_3.builder.impl.PersonalComputerBuilder;
-import ru.aston.hometask_3.builder.api.Builder;
+import ru.aston.hometask_3.builder.model.User;
 
 public class Main {
     public static void main(String[] args) {
-        Builder computerBuilder = new PersonalComputerBuilder();
-        Director director = new Director();
-        computerBuilder = director.createBasicPersonalComputer(computerBuilder);
-        System.out.println(computerBuilder.createPersonalComputer());
-        System.out.println("===========================");
-        computerBuilder = director.createGamingPersonalComputer(computerBuilder);
-        System.out.println(computerBuilder.createPersonalComputer());
+        User user = User.builder()
+                .setName("John")
+                .setEmail("123@email.com")
+                .setPassword("12345")
+                .build();
+
+        System.out.println(user);
     }
 }
