@@ -18,7 +18,7 @@ public class TwoThreads {
                             lock.wait();
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
-                            System.out.println(Thread.currentThread().getName() + "interrupted");
+                            System.out.println(Thread.currentThread().getName() + " is interrupted");
                         }
                     }
                     System.out.print("1");
@@ -26,7 +26,7 @@ public class TwoThreads {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
-                        System.out.println(Thread.currentThread().getName() + "interrupted");
+                        System.out.println(Thread.currentThread().getName() + " is interrupted");
                     }
                     isThread1 = false;
                     lock.notify();
@@ -42,7 +42,7 @@ public class TwoThreads {
                             lock.wait();
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
-                            System.out.println(Thread.currentThread().getName() + "interrupted");
+                            System.out.println(Thread.currentThread().getName() + " is interrupted");
                         }
                     }
                     System.out.print("2");
@@ -50,7 +50,7 @@ public class TwoThreads {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
-                        System.out.println(Thread.currentThread().getName() + "interrupted");
+                        System.out.println(Thread.currentThread().getName() + " is interrupted");
                     }
                     isThread1 = true;
                     lock.notify();

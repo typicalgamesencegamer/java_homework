@@ -13,9 +13,9 @@ public class Livelock {
                 lock1.tryLock();
                 System.out.println(Thread.currentThread().getName() + " acquire lock1");
                 try {
-                    Thread.sleep(5000);
+                    Thread.sleep(50);
                 } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                    System.out.println(Thread.currentThread().getName() + " is interrupted");
                 }
                 if (lock2.tryLock()) {
                     System.out.println(Thread.currentThread().getName() + " acquire lock2");
@@ -34,7 +34,7 @@ public class Livelock {
                 try {
                     Thread.sleep(50);
                 } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                    System.out.println(Thread.currentThread().getName() + " is interrupted");
                 }
                 if (lock1.tryLock()) {
                     System.out.println(Thread.currentThread().getName() + " acquire lock1");
